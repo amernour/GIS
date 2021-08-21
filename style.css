@@ -1,0 +1,100 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+}
+
+#header { 
+    height: 60px; 
+    text-align: center;
+    font-size: 48px;
+    font-weight: bolder;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+#mapDiv { height: 453px; }
+
+#list { 
+    height: 613px;
+    width: 250px;
+    float: left; 
+    overflow: auto;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+#footer {
+    height: 120px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bolder;
+    padding: 20px;
+    background-color: black;
+    float:none; 
+    width: 97.4%;
+}
+#footerDiv1{word-spacing: 170px;}
+#span1 {color: blue;}
+#span2 {color: red;}
+#span3 {color: green;}
+#footerDiv2{word-spacing: 150px;
+text-align: center;}
+#span11 {color: blue;
+margin-right: 1px;
+padding: 0px;}
+#span21 {color: red;
+margin-right: 80px;
+padding: 0px;}
+#span31 {color: green;
+margin-right: 90px;
+padding: 0px;}
+
+button{
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 230px;
+    background-color: black;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+button:hover {
+    background-color: rgb(194, 189, 189);
+    color: black;
+}
+
+table{
+    border: 1px solid;
+    border-collapse:collapse;
+}
+td{
+    border: 1px solid;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.legend {
+    padding: 6px 8px;
+    font-size: 14px ;
+    background-color: rgb(90, 89, 89,0.8);
+    line-height: 24px;
+    color: rgb(219, 217, 217);
+  }
+.legend h4 {
+    text-align: center;
+    font-size: 16px;
+    margin: 2px 12px 8px;
+    width: 118px;
+  }
+.legend i {
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    float: left;
+    margin: 0px 8px;
+  }
